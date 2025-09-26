@@ -22,7 +22,7 @@ const app = express();
 const corsOptions = {
   origin: [
     "http://localhost:5173",               // local frontend
-    "https://certificate-frontend.vercel.app" , // deployed frontend
+    "https://certificate-frontend.vercel.app", // deployed frontend
     "https://nielit-mailer.netlify.app"
   ],
   methods: ["GET", "POST"],
